@@ -204,6 +204,21 @@ form {
     background-color: white;
     box-shadow: lightgray 3px 3px;
     padding: 35px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-buttons {
+    display: flex;
+    gap: 16px;
+    justify-content: right;
+    align-items: end;
+    margin-top: auto;
+}
+
+.card-btn {
+    width: 25px;
+    height: 25px;
 }
 
 .misc {
