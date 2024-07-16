@@ -41,9 +41,16 @@
     gap: 25px;
     align-items: center;
     font-size: 26px;
+    padding: 5px;
 }
 
-.logo, .menu-item {
+.menu-item:hover {
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
     color: white;
     font-weight: bold;
 }
@@ -174,6 +181,11 @@ form {
     border-radius: 20px;
 }
 
+.nav-bar li:hover {
+    background-color: rgb(34, 65, 192);
+    cursor: pointer;
+}
+
 /* Content */
 
 .content {
@@ -221,6 +233,18 @@ form {
 .card-btn {
     width: 25px;
     height: 25px;
+}
+
+#search:hover, .card-btn:hover {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#bell:hover {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
 }
 
 .misc {
@@ -291,4 +315,15 @@ form {
 
 .user-title {
     font-size: large;
+}
+
+
+/* Misc */
+
+.pfp:hover, .trending-pfp:hover {
+    cursor: pointer;
+}
+
+.announcement, .user-details, .title, .text {
+    cursor: pointer;
 }
